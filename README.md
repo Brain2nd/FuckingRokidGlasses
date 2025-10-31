@@ -419,8 +419,10 @@ fun reconnect(context: Context, socketUuid: String, macAddress: String) {
 ## 二、Wi-Fi 连接
 
 > 注意：使用 Wi-Fi 模块前，必须完成蓝牙连接。
+> 
 > Wi-Fi 模块耗能较高，仅在必要时启用。
-> 注意，一下代码卵用没有哈，官方默认禁用了眼镜的Wifi P2P，所以肯定会返回失败的。
+> 
+> 注意，以下代码卵用没有哈，官方默认禁用了眼镜的Wifi P2P，所以肯定会返回失败的。
 
 ---
 
